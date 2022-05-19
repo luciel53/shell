@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -t /tmp/u My_file Elif_ym
+mv -t /tmp/u Elif_ym My_file
