@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a --file-type 12-file_type
+file 12-file_type -a
