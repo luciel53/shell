@@ -1,2 +1,2 @@
 #!/bin/bash
-mv -t /tmp/u Elif_ym My_file
+mv grep '^[A-Z]' /tmp/u 
