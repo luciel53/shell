@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent chgrp staff tmp/
+chown vincent:staff tmp/
