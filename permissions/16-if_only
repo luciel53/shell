@@ -1,2 +1,2 @@
 #!/bin/bash
-chown --reference=hello guillaume vincent
+chown --reference=hello vincent guillaume
