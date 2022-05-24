@@ -1,2 +1,2 @@
 #!/bin/bash
-<ls tail -1> iacta 
+sort < ls tail -1 > iacta 
