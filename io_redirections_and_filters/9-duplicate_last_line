@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -1 cp > iacta 
+sort -i tail -1 > iacta 
