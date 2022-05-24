@@ -1,2 +1,2 @@
 #!/bin/bash
-y-3y p iacta 
+tail -n 1 iacta | head -1
