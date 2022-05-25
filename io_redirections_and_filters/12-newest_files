@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -t
+print -lr -- **/*(om[1,10])
