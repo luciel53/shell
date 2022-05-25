@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -newer10 -print
+ls -1t | tail -10
