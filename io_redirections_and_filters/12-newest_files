@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -newer10
+find . -newer10 -print
