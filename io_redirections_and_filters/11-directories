@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type d -ignore_. .. | -c
+find -type d -c -not -path ". .."
