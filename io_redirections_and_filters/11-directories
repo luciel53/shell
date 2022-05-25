@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -/shell/fun_with_the_shell -print | wc -l
+find . -type d -mindepth -print | wc -l
