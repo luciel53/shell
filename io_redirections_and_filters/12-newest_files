@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -newer10 -print
+find . -type f -newer10 -print
