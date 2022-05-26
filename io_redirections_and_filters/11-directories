@@ -1,2 +1,2 @@
 #!/bin/bash
-find /test_dir -mindepth 1 -type d -name ".*" -print | wc -l
+find /test_dir -mindepth 1 -type d -iname ".*" -ls | wc -l
