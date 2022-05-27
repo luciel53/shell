@@ -1,2 +1,2 @@
 #!/bin/bash
-u="hello user"
+user="hello user"
