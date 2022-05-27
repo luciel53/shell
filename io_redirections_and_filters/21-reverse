@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "esreveR" | ./21-reverse 
+echo "Reverse" | rev
