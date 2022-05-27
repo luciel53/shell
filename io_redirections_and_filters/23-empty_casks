@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name -empty -type f -not -empty -type d | cut -d , -f9
+find . -empty -type f,d -printf '%f\n'
