@@ -2,6 +2,6 @@
 # Bash script displays the content of current directory ina list format where only the part of the name after dash is displayed. Using for loop, not display hidden files.
 for i in *;
 do
-ls | cut -d '-' -f 2;
+echo $i | cut -d '-' -f 2;
 done
 
