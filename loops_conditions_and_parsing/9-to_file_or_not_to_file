@@ -20,5 +20,5 @@ if [[ -f i ]];
 then
 echo "school file is regular file";
 else
-echo " ";
+echo "nothing";
 fi
