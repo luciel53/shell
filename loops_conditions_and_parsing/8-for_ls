@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Bash script displays the content of current directory ina list format where only the part of the name after dash is displayed. Using for loop, not display hidden files.
-for var in list;
+for i in *;
 do
-ls | cut -f 2
+ls | cut -d '-' -f 2;
 done
 
