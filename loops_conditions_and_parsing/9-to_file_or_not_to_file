@@ -1,21 +1,20 @@
 #!/usr/bin/env bash
 # bash script that gives you information about the school file. Using if and else.
-var=FILE
-if [[ -e $FILE ]];
+if [[ -e $i ]];
 then
 echo "school file exists";
 else
 echo "school does not exist";
 fi
 
-if [[ -s $FILE ]];
+if [[ -s $i ]];
 then 
 echo "school file is empty";
 else
 echo "school is not empty";
 fi
 
-if [[ -f $FILE ]];
+if [[ -f $i ]];
 then
 echo "school file is regular file";
 fi
