@@ -18,5 +18,5 @@ fi
 
 if [[ -f i ]];
 then
-echo "school file is regular file";
+echo "school is a regular file";
 fi
