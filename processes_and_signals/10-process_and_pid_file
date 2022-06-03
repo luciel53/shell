@@ -1,16 +1,20 @@
 #!/usr/bin/env bash
 # Creates the file /var/run/myscript.pid containing its PID. Displays To infinity and beyond indefinitely. Displays I hate the kill command when receiving a SIGTERM signal. Displays Y U no love me?! when receiving a SIGINT signal. Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal.
+fichiertemp=/var/run/myscript.pid
+trap "rm -f $fichiertemp" EXIT
 chown lucie:lucie echo $$ 10-process_and_pid_file > /var/run/myscript.pid
 while true
 do 
 echo "To infinity and beyond"
 trap "echo 'I hate the kill command' " 15
 trap "echo 'Y U no love me?!' " 2 	
+trap 3 15  "$(pgrep -f "10-process_and_pid_file")"
 sleep 2
-if trap 3 or 15
-then
-rm -r /var/run/myscript.pid
-pkill -f "10-process_and_pid_file"
-fi
+while true
+do
+trap 15 TERM
+trap 3 TERM
+EXIT
+done
 done
 
