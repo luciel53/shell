@@ -10,11 +10,11 @@ trap "echo 'I hate the kill command' " 15
 trap "echo 'Y U no love me?!' " 2 	
 trap 3 15  "$(pgrep -f "10-process_and_pid_file")"
 sleep 2
-done
 while true
 do
 trap 15 TERM
 trap 3 TERM
 EXIT
+done
 done
 
