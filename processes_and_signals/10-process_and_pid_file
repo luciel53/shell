@@ -7,5 +7,10 @@ echo "To infinity and beyond"
 trap "echo 'I hate the kill command' " 15
 trap "echo 'Y U no love me?!' " 2 	
 sleep 2
+if trap 3 or 15
+then
+rm -r /var/run/myscript.pid
+pkill -f "10-process_and_pid_file"
+fi
 done
 
