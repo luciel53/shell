@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | wc -c
+find $PATH -depth -type d | wc -c
