@@ -1,2 +1,3 @@
 #!/bin/bash
+# Write a script that prints every other line from the input, starting with the first line. 
 echo "\"everyone is a proponent of strong encryption.\"" - Dorothy E. Denning"" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
