@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "${D2="$BINARY"B[10]}"
+printf '%x\n' "$BINARY((2#101010101))"
